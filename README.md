@@ -105,17 +105,9 @@ Use the `BLANK_README.md` to get started.
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-[![.NET][.NET]][.NET-url]
-<br> 
-[![Blazor][Blazor]][Blazor-url]
-<br> 
 [![Bun][Bun]][Bun-url]
 <br> 
 [![Next][Next.js]][Next-url]
-<br> 
-[![OpenGL][OpenGL]][OpenGL-url]
-<br> 
-[![Rails][Rails]][Rails-url]
 <br> 
 [![React][React.js]][React-url]
 <br> 
@@ -126,6 +118,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 [![K3s][K3s]][K3s-url]
 <br> 
 [![Podman][Podman]][Podman-url]
+<br> 
+[![OpenGL][OpenGL]][OpenGL-url]
 
 
 <p align="right"><a href="#readme-top">🔝</a></p>
@@ -141,26 +135,24 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-##### npm
+#### Prerequisite 1
   ```sh
-  npm install npm@latest -g
+  # Relevant prerequisite actions 
   ```
 
 ### Installation
 
-##### 1. Get a free API Key at [https://example.com](https://example.com)
-##### 2. Clone the repo
+#### 1. Clone the repo
    ```sh
    git clone https://github.com/github_username/repo_name.git
    ```
-##### 3. Install NPM packages
+#### 3. Installations
    ```sh
-   # Install NPM packages
-   npm install
+   # Install dependencies
    ```
-##### 4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+#### 4. Further steps
+   ```sh
+   # Further relevant actions
    ```
 
 <p align="right"><a href="#readme-top">🔝</a></p>
@@ -203,24 +195,24 @@ Contributions are what make the open source community such an amazing place to l
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
-#### 1. Fork the Project
+### 1. Fork the Project
 ```sh
 gh repo fork suny-am/documentation-templates --clone
 cd documentation-templates
 ```
-#### 2. Create your Feature Branch 
+### 2. Create your Feature Branch 
 ```sh
 git checkout -b feature/aNewCoolFeature
 ```
-#### 3. Commit your Changes 
+### 3. Commit your Changes 
 ```sh
 `git commit -m 'Add a new cool feature'
 ```
-#### 4. Push to the Branch 
+### 4. Push to the Branch 
 ```sh
 git push origin feature/aNewCoolFeature
 ```
-#### 5. Open a Pull Request
+### 5. Open a Pull Request
 ```sh
 gh pr create 
 ```
